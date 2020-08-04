@@ -3,7 +3,7 @@ def my_each (collection)
    if block_given?
      i = 0
      while i < number
-       yeild collection[i]
+       yield collection[i]
        i += 1
      end
   end
