@@ -5,7 +5,7 @@ def my_each (collection)
      while i < number
        yeild collection[i]
        i += 1
-     end 
-  end 
+     end
+  end
   collectin
 end
